@@ -3,17 +3,49 @@ import {IoIosSearch} from "react-icons/io";
 import {Link, Outlet} from "react-router-dom";
 import {FaUser} from "react-icons/fa6";
 import {LuSun} from "react-icons/lu";
+import i18next, {t} from "i18next";
+import {initReactI18next, useTranslation} from "react-i18next";
+import {en} from "../../locale/en";
+import {getLang} from "../../redux/language-slice";
+import {useDispatch} from "react-redux";
+import {ru} from "../../locale/ru";
+import {uz} from "../../locale/uz";
+
+i18next.use(initReactI18next).init({
+	resources: {
+		en: {
+			translation: en,
+		},
+		ru: {
+			translation: ru,
+		},
+		uz: {
+			translation: uz,
+		},
+	},
+	lng: localStorage.getItem("lang") || "ru",
+	fallbackLng: "en",
+});
 
 const Layout = () => {
+	let {t} = useTranslation();
+
+	let sections = ["news", "arts", "travel", "sports", "tech", "money"];
+
+	let langFunc = (value) => {
+		localStorage.setItem("lang", value);
+		i18next.changeLanguage(value);
+	};
+
 	return (
 		<>
 			<header className="w-[90%] mx-auto">
 				<nav className="py-4 border-b flexC">
 					<div className="flex items-center gap-2">
 						<HiMiniBars3CenterLeft className="text-xl cursor-pointer" />
-						<p className="font-semibold">Sections</p>
+						<p className="font-semibold">{t("header.sections")}</p>
 					</div>
-					<div className="flex items-center border-l pl-2 w-[60em]">
+					<div className="flex items-center border-l pl-2 w-[50em]">
 						<IoIosSearch className="text-2xl text-gray-500" />
 						<input
 							className="w-full h-full pl-2 text-base text-gray-500 border-none outline-none bg-none"
@@ -22,17 +54,28 @@ const Layout = () => {
 					</div>
 					<div className="flex items-center gap-8">
 						<div className="flex items-center gap-2 text-xs">
+							<div className="text-xl">
+								<button className="px-3 py-1 " onClick={() => langFunc(`en`)}>
+									eng
+								</button>
+								<button className="px-3 py-1 " onClick={() => langFunc(`ru`)}>
+									rus
+								</button>
+								<button className="px-3 py-1 " onClick={() => langFunc(`uz`)}>
+									uzb
+								</button>
+							</div>
 							<div>
 								<img src="/public/Image.svg" alt="" />
 							</div>
 							<div>
-								<b>Subscribe Now</b>
-								<p className="text-gray-400">3 month for $19</p>
+								<b>{t("header.subscribe_now")}</b>
+								<p className="text-gray-400">{t("header.three_month_offer")}</p>
 							</div>
 						</div>
 						<div className="flex items-center gap-2">
 							<FaUser />
-							Sign In
+							{t("header.sign_in")}
 						</div>
 					</div>
 				</nav>
@@ -51,7 +94,7 @@ const Layout = () => {
 						</Link>
 					</div>
 					<div className="flex items-center gap-12">
-						<p className="text-sm text-gray-500">Monday, January 1, 2018</p>
+						<p className="text-sm text-gray-500">{t("header.date_example")}</p>
 						<div className="flex items-center gap-2">
 							<LuSun />
 							<b>- 23 °C</b>
@@ -61,17 +104,17 @@ const Layout = () => {
 			</header>
 			<div className="bg-[#262D33]">
 				<div className="w-[90%] mx-auto flexC gap-12 py-4 text-white text-sm font-bold">
-					<p className="cursor-pointer">NEWS</p>
-					<p className="cursor-pointer">OPINION</p>
-					<p className="cursor-pointer">SCIENCE</p>
-					<p className="cursor-pointer">LIFE</p>
-					<p className="cursor-pointer">TRAVEL</p>
-					<p className="cursor-pointer">MONEYS</p>
-					<p className="cursor-pointer">ART & DESIGN</p>
-					<p className="cursor-pointer">SPORTS</p>
-					<p className="cursor-pointer">PEOPLE</p>
-					<p className="cursor-pointer">HEALTH</p>
-					<p className="cursor-pointer">EDUCATION</p>
+					<p className="cursor-pointer">{t("navigation.news")}</p>
+					<p className="cursor-pointer">{t("navigation.opinion")}</p>
+					<p className="cursor-pointer">{t("navigation.science")}</p>
+					<p className="cursor-pointer">{t("navigation.life")}</p>
+					<p className="cursor-pointer">{t("navigation.travel")}</p>
+					<p className="cursor-pointer">{t("navigation.moneys")}</p>
+					<p className="cursor-pointer">{t("navigation.art_and_design")}</p>
+					<p className="cursor-pointer">{t("navigation.people")}</p>
+					<p className="cursor-pointer">{t("navigation.health")}</p>
+					<p className="cursor-pointer">{t("navigation.education")}</p>
+					<p className="cursor-pointer">{t("navigation.people")}</p>
 				</div>
 			</div>
 			<Outlet />
@@ -85,50 +128,21 @@ const Layout = () => {
 					<div className="h-full w-full bg-[#6E99AE] rounded-r-full"></div>
 				</div>
 				<div className="grid grid-cols-6 gap-4 pb-7">
-					<div className="flex flex-col gap-3">
-						<p className="mb-4 text-sm font-bold">News</p>
-						<p className="text-sm">Nation</p>
-						<p className="text-sm">World</p>
-						<p className="text-sm">Politics</p>
-						<p className="text-sm">Solar Eclipse</p>
-					</div>
-					<div className="flex flex-col gap-3">
-						<p className="mb-4 text-sm font-bold">Arts</p>
-						<p className="text-sm">Art & Design</p>
-						<p className="text-sm">Movies</p>
-						<p className="text-sm">People</p>
-						<p className="text-sm">Video: Arts</p>
-						<p className="text-sm">Theater</p>
-					</div>
-					<div className="flex flex-col gap-3">
-						<p className="mb-4 text-sm font-bold">Travel</p>
-						<p className="text-sm">Destinations</p>
-						<p className="text-sm">Flights</p>
-						<p className="text-sm">Business Travel</p>
-					</div>
-					<div className="flex flex-col gap-3">
-						<p className="mb-4 text-sm font-bold">Sports</p>
-						<p className="text-sm">Olympics</p>
-						<p className="text-sm">Motor Sports</p>
-						<p className="text-sm">Volleyball</p>
-						<p className="text-sm">MMA</p>
-						<p className="text-sm">Cycling</p>
-					</div>
-					<div className="flex flex-col gap-3">
-						<p className="mb-4 text-sm font-bold">Tech</p>
-						<p className="text-sm">Tech</p>
-						<p className="text-sm">Tech Columnists</p>
-						<p className="text-sm">Tech Reviews</p>
-						<p className="text-sm">Talking Tech</p>
-					</div>
-					<div className="flex flex-col gap-3">
-						<p className="mb-4 text-sm font-bold">Moneys</p>
-						<p className="text-sm">Markets</p>
-						<p className="text-sm">Business</p>
-						<p className="text-sm">Personal Finance</p>
-						<p className="text-sm">Retirement</p>
-						<p className="text-sm">Careers</p>
-					</div>
+					{sections.map((sectionKey) => {
+						const section = t(`footer.footer.${sectionKey}`, {
+							returnObjects: true,
+						});
+						return (
+							<div key={sectionKey} className="flex flex-col gap-3">
+								<p className="mb-4 text-sm font-bold">{section.title}</p>
+								{section.items.map((item, index) => (
+									<p key={index} className="text-sm">
+										{item}
+									</p>
+								))}
+							</div>
+						);
+					})}
 				</div>
 				<div className="w-full border-t border-gray-400"></div>
 				<div className="py-6 flexC">
@@ -136,10 +150,18 @@ const Layout = () => {
 						<div>
 							<img src="/public/Symbol.svg" alt="logo" />
 						</div>
-						<p className="text-sm font-semibold">Contact Us</p>
-						<p className="text-sm font-semibold">Work with Us</p>
-						<p className="text-sm font-semibold">Advertise</p>
-						<p className="text-sm font-semibold">Your Ad Choise</p>
+						<p className="text-sm font-semibold">
+							{t("footer.footer_links.contact_us")}
+						</p>
+						<p className="text-sm font-semibold">
+							{t("footer.footer_links.work_with_us")}
+						</p>
+						<p className="text-sm font-semibold">
+							{t("footer.footer_links.advertise")}
+						</p>
+						<p className="text-sm font-semibold">
+							{t("footer.footer_links.ad_choice")}
+						</p>
 					</div>
 					<div className="flex items-center gap-4">
 						<div className="cursor-pointer">
@@ -159,11 +181,9 @@ const Layout = () => {
 				<div className="w-full border-t border-gray-400"></div>
 				<div className="py-6 flexC">
 					<p className="text-sm text-gray-400 w-[60%]">
-						Universal’s business concept is to offer fashion and quality at the
-						best price in a sustainable way. Universal has since it was founded
-						in 2015 grown into one of the world's leading fashion companies.
+						{t("footer.about.description")}
 					</p>
-					<p className="text-sm text-gray-400">© 2019 Universal UI Kit</p>
+					<p className="text-sm text-gray-400">{t("footer.about.copyright")}</p>
 				</div>
 			</footer>
 		</>

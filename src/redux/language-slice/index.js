@@ -10,6 +10,7 @@ let languageSlice = createSlice({
 	reducers: {
 		getLang(state, {payload}) {
 			state.lang = payload;
+			localStorage.setItem("lang", state.lang);
 		},
 	},
 });
