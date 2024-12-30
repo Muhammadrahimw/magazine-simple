@@ -1,0 +1,460 @@
+{
+	"header": {
+		"sections": {
+			"en": "Sections",
+			"ru": "Разделы",
+			"uz": "Bo'limlar"
+		},
+		"subscribe_now": {
+			"en": "Subscribe Now",
+			"ru": "Подписаться сейчас",
+			"uz": "Hozir obuna bo'ling"
+		},
+		"three_month_offer": {
+			"en": "3 month for $19",
+			"ru": "3 месяца за $19",
+			"uz": "3 oy uchun $19"
+		},
+		"sign_in": {
+			"en": "Sign In",
+			"ru": "Войти",
+			"uz": "Kirish"
+		},
+		"date_example": {
+			"en": "Monday, January 1, 2018",
+			"ru": "Понедельник, 1 января 2018 г.",
+			"uz": "Dushanba, 1-yanvar, 2018-yil"
+		}
+	},
+	"navigation": {
+		"news": {
+			"en": "NEWS",
+			"ru": "НОВОСТИ",
+			"uz": "YANGILIKLAR"
+		},
+		"opinion": {
+			"en": "OPINION",
+			"ru": "МНЕНИЯ",
+			"uz": "FIQRLAR"
+		},
+		"science": {
+			"en": "SCIENCE",
+			"ru": "НАУКА",
+			"uz": "ILM-FAN"
+		},
+		"life": {
+			"en": "LIFE",
+			"ru": "ЖИЗНЬ",
+			"uz": "HAYOT"
+		},
+		"travel": {
+			"en": "TRAVEL",
+			"ru": "ПУТЕШЕСТВИЯ",
+			"uz": "SAFARLAR"
+		},
+		"moneys": {
+			"en": "MONEYS",
+			"ru": "ДЕНЬГИ",
+			"uz": "PUL-MOLIYA"
+		},
+		"art_and_design": {
+			"en": "ART & DESIGN",
+			"ru": "ИСКУССТВО И ДИЗАЙН",
+			"uz": "SAN’AT VA DIZAYN"
+		},
+		"sports": {
+			"en": "SPORTS",
+			"ru": "СПОРТ",
+			"uz": "SPORT"
+		},
+		"people": {
+			"en": "PEOPLE",
+			"ru": "ЛЮДИ",
+			"uz": "ODAMLAR"
+		},
+		"health": {
+			"en": "HEALTH",
+			"ru": "ЗДОРОВЬЕ",
+			"uz": "SALOMATLIK"
+		},
+		"education": {
+			"en": "EDUCATION",
+			"ru": "ОБРАЗОВАНИЕ",
+			"uz": "TA’LIM"
+		}
+	},
+	"footer": {
+		"categories": {
+			"news": {
+				"en": "News",
+				"ru": "Новости",
+				"uz": "Yangiliklar"
+			},
+			"arts": {
+				"en": "Arts",
+				"ru": "Искусство",
+				"uz": "San’at"
+			},
+			"travel": {
+				"en": "Travel",
+				"ru": "Путешествия",
+				"uz": "Sayohat"
+			},
+			"sports": {
+				"en": "Sports",
+				"ru": "Спорт",
+				"uz": "Sport"
+			},
+			"tech": {
+				"en": "Tech",
+				"ru": "Технологии",
+				"uz": "Texnologiyalar"
+			},
+			"moneys": {
+				"en": "Moneys",
+				"ru": "Деньги",
+				"uz": "Pul-moliya"
+			}
+		},
+		"footer_links": {
+			"contact_us": {
+				"en": "Contact Us",
+				"ru": "Связаться с нами",
+				"uz": "Biz bilan bog‘laning"
+			},
+			"work_with_us": {
+				"en": "Work with Us",
+				"ru": "Работайте с нами",
+				"uz": "Biz bilan ishlang"
+			},
+			"advertise": {
+				"en": "Advertise",
+				"ru": "Реклама",
+				"uz": "Reklama"
+			},
+			"ad_choice": {
+				"en": "Your Ad Choice",
+				"ru": "Ваш выбор рекламы",
+				"uz": "Reklama tanlovi"
+			}
+		},
+		"about": {
+			"description": {
+				"en": "Universal’s business concept is to offer fashion and quality at the best price in a sustainable way. Universal has since it was founded in 2015 grown into one of the world's leading fashion companies.",
+				"ru": "Концепция Universal заключается в предложении моды и качества по лучшей цене устойчивым способом. Universal с момента своего основания в 2015 году стал одной из ведущих модных компаний мира.",
+				"uz": "Universal kompaniyasining biznes konsepsiyasi eng yaxshi narxlarda moda va sifatni barqaror tarzda taqdim etishdir. Universal 2015-yilda tashkil etilganidan beri dunyoning yetakchi moda kompaniyalaridan biriga aylandi."
+			},
+			"copyright": {
+				"en": "© 2019 Universal UI Kit",
+				"ru": "© 2019 Universal UI Kit",
+				"uz": "© 2019 Universal UI Kit"
+			}
+		}
+	},
+	"showcase": {
+		"destinations": {
+			"en": "Destinations",
+			"ru": "Направления",
+			"uz": "Manzillar"
+		},
+		"title": {
+			"en": "Five Travel Stories From 2017 to Help You Escape Into the World",
+			"ru": "Пять историй о путешествиях из 2017 года, чтобы помочь вам окунуться в мир",
+			"uz": "2017-yildan beshta sayohat hikoyasi, dunyoni kashf etishingizga yordam beradi"
+		},
+		"description": {
+			"en": "From the coastlines of Europe to remote Kodiak Island, Alaska, here are five of our favorite stories to help you explore the world",
+			"ru": "От берегов Европы до отдаленного острова Кадьяк на Аляске, вот пять наших любимых историй, которые помогут вам исследовать мир",
+			"uz": "Yevropa qirg‘oqlaridan tortib, Alyaskadagi Kodiak oroligacha, dunyoni kashf etishingiz uchun bizning sevimli beshta hikoyamiz"
+		},
+		"date": {
+			"en": "Aug 6, 10:23 pm",
+			"ru": "6 августа, 22:23",
+			"uz": "6-avgust, 22:23"
+		},
+		"shares": {
+			"en": "142 shares",
+			"ru": "142 поделились",
+			"uz": "142 marta ulashildi"
+		}
+	},
+	"about": {
+		"intro": {
+			"en": "Many geographers are trained in toponymy and cartology, this is not their main preoccupation. Geographers study the space and the temporal database distribution of phenomena, processes, and features as well as the interaction of humans and their environment. Because space and place affect a variety of topics, such as economics, health, climate, plants and animals, geography is highly interdisciplinary. The interdisciplinary nature of the geographical approach depends on an attentiveness to the relationship between physical and human phenomena and its spatial patterns.",
+			"ru": "Многие географы обучаются топонимике и картографии, но это не их основная забота. Географы изучают пространство и распределение данных во времени явлений, процессов и особенностей, а также взаимодействие людей и их окружения. Поскольку пространство и место влияют на различные темы, такие как экономика, здоровье, климат, растения и животные, география является высоко междисциплинарной. Междисциплинарная природа географического подхода зависит от внимания к взаимосвязи между физическими и человеческими явлениями и их пространственными паттернами.",
+			"uz": "Ko'plab geografchilar toponimika va kartografiyada o'qitilgan bo'lsalar-da, bu ularning asosiy mashg'uloti emas. Geografchilar makon va vaqt bo'yicha ma'lumotlar bazasining tarqalishini, jarayonlar va xususiyatlarni, shuningdek, insonlarning o'z muhitlari bilan o'zaro ta'sirini o'rganadilar. Makon va joy iqtisodiyot, sog'liqni saqlash, iqlim, o'simliklar va hayvonlar kabi turli mavzularga ta'sir qilgani sababli, geografiya juda ko'p fanli hisoblanadi. Geografik yondashuvning ko'p fanliligi fizika va inson hodisalari o'rtasidagi munosabatlar va ularning makoniy naqshlariga e'tibor bilan bog'liq."
+		},
+		"integrated_geography": {
+			"en": "Geography as a discipline can be split broadly into two main subsidiary fields: human geography and physical geography. The former largely focuses on the built environment and how humans create, view, manage, and influence space. The latter examines the natural environment, and how organisms, climate, soil, water, and landforms produce and interact.",
+			"ru": "География как дисциплина может быть широко разделена на два основных подраздела: человеческую географию и физическую географию. Первая в основном фокусируется на построенной среде и том, как люди создают, видят, управляют и влияют на пространство. Вторая исследует природную среду и то, как организмы, климат, почва, вода и формы земли производят и взаимодействуют.",
+			"uz": "Geografiya fan sifatida keng miqyosda ikkita asosiy soha: inson geografiyasi va fizik geografiyaga bo'linadi. Birinchisi asosan qurilgan muhit va insonlarning makonni qanday yaratishi, ko'rishi, boshqarishi va unga ta'sir qilishiga e'tibor qaratadi. Ikkinchisi esa tabiiy muhitni va organizmlar, iqlim, tuproq, suv va yer shakllari qanday hosil bo'lishi va o'zaro ta'sirini o'rganadi."
+		},
+		"environmental_geography": {
+			"en": "The difference between these approaches led to a third field, environmental geography, which combines physical and human geography and concerns the interactions between the environment and humans.",
+			"ru": "Разница между этими подходами привела к третьей области — экологической географии, которая объединяет физическую и человеческую географию и рассматривает взаимодействия между окружающей средой и людьми.",
+			"uz": "Ushbu yondashuvlar o'rtasidagi farq uchinchi soha – ekologik geografiyani vujudga keltirdi. Bu esa fizik va inson geografiyasini birlashtirib, atrof-muhit va odamlar o'rtasidagi o'zaro ta'sirni o'rganadi."
+		},
+		"historical_reference": {
+			"en": "The accompanying text mentions seven outer regions beyond the encircling ocean. The descriptions of five of them have survived. In contrast to the Imago Mundi, an earlier Babylonian world map dating back to the 9th century BC depicted Babylon as being further north from the center of the world, though it is not certain what that center was supposed to represent.",
+			"ru": "В приложенном тексте упоминаются семь внешних регионов за пределами окружающего океана. Описания пяти из них сохранились. В отличие от Imago Mundi, более ранняя вавилонская мировая карта, относящаяся к 9 веку до н.э., изображала Вавилон как находящийся дальше на севере от центра мира, хотя неясно, что этот центр должен был представлять.",
+			"uz": "Ilova qilingan matnda aylanuvchi okean tashqarisidagi yetti tashqi hududlar tilga olingan. Ulardan beshtasining tavsiflari saqlanib qolgan. Imago Mundi, miloddan avvalgi 9-asrga oid oldingi Bobil dunyo xaritasi Bobilni dunyoning markazidan shimolroq joyda ko'rsatgan bo'lsa-da, bu markaz nimani anglatishi aniq emas."
+		},
+		"author_section": {
+			"en": {
+				"name": "Mira Anderson",
+				"title": "Traveler & Photographer",
+				"articles_count": "82 articles",
+				"follow_text": "Follow on Universal"
+			},
+			"ru": {
+				"name": "Мира Андерсон",
+				"title": "Путешественник и фотограф",
+				"articles_count": "82 статьи",
+				"follow_text": "Подписаться на Universal"
+			},
+			"uz": {
+				"name": "Mira Anderson",
+				"title": "Sayohatchi va Fotograf",
+				"articles_count": "82 maqola",
+				"follow_text": "Universal'ga obuna bo'lish"
+			}
+		},
+		"geostatistics_section": {
+			"en": {
+				"description": "Geostatistics deal with quantitative data analysis, specifically the application of statistical methodology",
+				"author_name": "Andrew Washington",
+				"author_title": "Photographer"
+			},
+			"ru": {
+				"description": "Геостатистика занимается количественным анализом данных, в частности применением статистических методик",
+				"author_name": "Эндрю Вашингтон",
+				"author_title": "Фотограф"
+			},
+			"uz": {
+				"description": "Geostatistika miqdoriy ma'lumotlar tahlili bilan shug'ullanadi, xususan statistik metodologiyaning qo'llanilishi",
+				"author_name": "Endryu Vashington",
+				"author_title": "Fotograf"
+			}
+		},
+
+		"oldest_world_maps_section": {
+			"en": {
+				"description_1": "The oldest known world maps date back to ancient Babylon from the 9th century BC. The best known Babylonian world map, however, is the Imago Mundi of 600 BC. The map as reconstructed by Eckhard Unger shows Babylon on the Euphrates, surrounded by a circular landmass showing Assyria, Urartu and several cities, in turn surrounded by a 'bitter river' (Oceanus), with seven islands arranged around it so as to form a seven-pointed star.",
+				"description_2": "The accompanying text mentions seven outer regions beyond the encircling ocean. The descriptions of five of them have survived. In contrast to the Imago Mundi, an earlier Babylonian world map dating back to the 9th century BC depicted Babylon as being further north from the center of the world, though it is not certain what that center was supposed to represent.",
+				"description_3": "The ideas of Anaximander: considered by later Greek writers to be the true founder of geography, come to us through fragments quoted by his successors. Anaximander is credited with the invention of the gnomon, the simple, yet efficient Greek instrument that allowed the early measurement of latitude. Thales is also credited with the prediction of eclipses. The foundations of geography can be traced to the ancient cultures, such as the ancient, medieval, and early modern Chinese."
+			},
+			"ru": {
+				"description_1": "Самые старые известные карты мира относятся к древнему Вавилону IX века до нашей эры. Однако наиболее известная вавилонская карта мира - это Имаджо Мунди 600 года до нашей эры. Карта, воссозданная Экхардом Унгером, показывает Вавилон на Евфрате, окруженный круговой земной массой, на которой изображены Ассирия, Урарту и несколько городов, а вокруг нее расположена «горькая река» (Океан), с семью островами, расположенными так, чтобы образовать семиугольную звезду.",
+				"description_2": "Сопровождающий текст упоминает семь внешних регионов за окружением океана. Описание пяти из них сохранилось. В отличие от Имаджо Мунди, более ранняя вавилонская карта мира, датируемая IX веком до нашей эры, изображала Вавилон дальше на север от центра мира, хотя неясно, что этот центр должен был представлять.",
+				"description_3": "Идеи Анаксимандра, считающегося поздними греческими писателями настоящим основателем географии, дошли до нас через фрагменты, цитируемые его преемниками. Анаксимандру приписывают изобретение гномона — простого, но эффективного греческого инструмента, который позволил производить первые измерения широты. Фалесу также приписывают предсказание затмений. Основания географии можно проследить в древних культурах, таких как древний, средневековый и ранний модерн китайский."
+			},
+			"uz": {
+				"description_1": "Eng qadimgi ma'lum bo'lgan dunyo xaritalari miloddan avvalgi 9-asrda qadimgi Vavilondan kelib chiqqan. Biroq, eng mashhur Vavilon dunyo xaritasi miloddan avvalgi 600-yildagi Imago Mundi hisoblanadi. Ekxard Unger tomonidan qayta tiklangan xarita, Vavilonni Eufrat daryosida ko'rsatadi, u doira shaklida joylashgan va Assuriya, Urartu va bir nechta shaharlar bilan o'ralgan, va bu hududni `g'azablangan daryo` (Okeanus) o'ralgan, atrofida yetti orol joylashgan va ular yetti burchakli yulduz shaklida tashkil etilgan.",
+				"description_2": "Qo'shimcha matnda o'ralgan okeandan tashqarida yetti tashqi mintaqa haqida so'z boradi. Ularning beshta tasviri saqlanib qolgan. Imago Mundi bilan solishtirganda, miloddan avvalgi 9-asrga oid birinchi Vavilon dunyo xaritasi Vavilonni dunyoning markazidan yanada shimolda tasvirlagan, garchi bu markazning nima ifodalashiga aniqlik kiritilmagan.",
+				"description_3": "Anaksimandrning g'oyalari: keyinchalik yunon yozuvchilari tomonidan geografining haqiqiy asoschisi deb hisoblanadi, bizga uning izdoshlari tomonidan keltirilgan parchalar orqali yetib kelgan. Anaksimandr gnomonni, ya'ni keng tarqalgan, ammo samarali yunon asbobini ixtiro qilgani bilan tanilgan, u ilk bor kenglikni o'lchashni imkoniyatiga ega bo'ldi. Tales esa eklepsiyalarni oldindan aytish bilan ham tanilgan. Geografiyaning asoslari qadimgi, o'rta asr va erta zamonaviy Xitoy kabi qadimgi madaniyatlarda izlanishi mumkin."
+			}
+		},
+		"material_on_theme_section": {
+			"en": {
+				"title": "Material on Theme",
+				"image_alt": "Image related to the theme",
+				"article_title": "Application of Postcolonial Theory in the Middle East",
+				"article_description": "In the essays 'Overstating the Arab State', by Nazih Ayubi, and 'Is Jordan Palestine?', by Raphael Israel, the authors deal with the psychologically fragmented postcolonial identity."
+			},
+			"ru": {
+				"title": "Материалы по теме",
+				"image_alt": "Изображение, относящееся к теме",
+				"article_title": "Применение постколониальной теории на Ближнем Востоке",
+				"article_description": "В эссе 'Преувеличение арабского государства' Назиха Айюби и 'Является ли Иордания Палестиной?' Рафаэля Израэля авторы обсуждают психологически фрагментированную постколониальную идентичность."
+			},
+			"uz": {
+				"title": "Mavzu bo'yicha materiallar",
+				"image_alt": "Mavzu bilan bog'liq rasm",
+				"article_title": "Postkolonial nazariyaning O'rta Sharqda qo'llanilishi",
+				"article_description": "'Arab davlatini ortiqcha ta'kidlash' nomli esse Nazih Ayubidan va 'Iordaniya Falastinmi?' nomli esse Rafael Isroildan psixologik jihatdan parchalangan postkolonial identifikatsiya bilan shug'ullanadi."
+			}
+		},
+		"quote_section": {
+			"en": {
+				"quote": "Names of places... are not geography... know by heart a whole gazetteer full of them would not, in itself, constitute anyone a geographer. Geography has higher aims than this: it seeks to classify phenomena.",
+				"author_name": "William Peterson",
+				"author_title": "Travel Agent"
+			},
+			"ru": {
+				"quote": "Названия мест... не являются географией... знание наизусть целого справочника с ними само по себе не делает человека географом. География имеет более высокие цели: она стремится классифицировать явления.",
+				"author_name": "Уильям Петерсон",
+				"author_title": "Туристический агент"
+			},
+			"uz": {
+				"quote": "Joylarning nomlari... bu geografiya emas... ularning barchasini yoddan bilish hech qanday tarzda odamni geograf qilishga yetarli emas. Geografiya bundan yuqori maqsadga ega: u hodisalarni tasniflashni maqsad qiladi.",
+				"author_name": "Uilyam Piterzon",
+				"author_title": "Sayohat agenti"
+			}
+		},
+		"geography_history": {
+			"en": {
+				"paragraph_1": "The Greeks, who were the first to explore geography as both art and science, achieved this through Cartography, Philosophy, and Literature, or through Mathematics. There is some debate about who was the first person to assert that the Earth is spherical in shape, with the credit going either to Parmenides or Pythagoras. Anaxagoras was able to demonstrate that the profile of the Earth was circular by explaining eclipses. However, he still believed that the Earth was a flat disk, as did many of his contemporaries.",
+				"paragraph_2": "The first rigorous system of latitude and longitude lines is credited to Hipparchus. He employed a sexagesimal system that was derived from Babylonian mathematics."
+			},
+			"ru": {
+				"paragraph_1": "Греки, которые были первыми, кто исследовал географию как искусство и науку, достигли этого через картографию, философию и литературу или через математику. Существует некоторый спор о том, кто первым заявил, что Земля имеет сферическую форму, с приписыванием заслуг либо Пармениду, либо Пифагору. Анаксагор смог продемонстрировать, что профиль Земли был круглый, объяснив солнечные затмения. Однако он всё ещё верил, что Земля — это плоский диск, как и многие его современники.",
+				"paragraph_2": "Первую строгую систему линий широты и долготы приписывают Гиппарху. Он использовал шестиверстную систему, основанную на вавилонской математике."
+			},
+			"uz": {
+				"paragraph_1": "Gretsiya xalqi, geografiyani san'at va fan sifatida birinchi bo'lib o'rganishgan, bu orqali Kartografiya, Falsafa va Adabiyot yoki Matematika yordamida erishilgan. Yerning shakli sferik ekanligini birinchi bo'lib kim aytganligi haqida ba'zi bahslar mavjud, bu kreditni Parmenides yoki Pifagor olishadi. Anaksagor esa Yerning shakli aylana ekanligini, quyosh tutilishini tushuntirib ko'rsatdi. Biroq, u hali ham Yerning tekis disk ekanligiga ishongan, uning zamondoshlari kabi.",
+				"paragraph_2": "Birinchi aniq latituda va longituda tizimini Hipparx yaratgan deb hisoblanadi. U Vavilon matematikasidan olingan seksagesimal tizimni ishlatgan."
+			}
+		},
+		"categories": {
+			"en": {
+				"travel": "Travel",
+				"destinations": "Destinations",
+				"nature": "Nature",
+				"world": "World",
+				"alaska": "Alaska"
+			},
+			"ru": {
+				"travel": "Путешествия",
+				"destinations": "Направления",
+				"nature": "Природа",
+				"world": "Мир",
+				"alaska": "Аляска"
+			},
+			"uz": {
+				"travel": "Sayohat",
+				"destinations": "Manzillar",
+				"nature": "Tabiat",
+				"world": "Dunyo",
+				"alaska": "Alaska"
+			}
+		},
+		"support_section": {
+			"en": {
+				"heading": "Show Your Support",
+				"like_button": {
+					"text": "Like it",
+					"count": "42"
+				},
+				"share_button": {
+					"text": "Share",
+					"count": "80"
+				},
+				"tweet_button": {
+					"text": "Tweet",
+					"count": "33"
+				}
+			},
+			"ru": {
+				"heading": "Покажите свою поддержку",
+				"like_button": {
+					"text": "Нравится",
+					"count": "42"
+				},
+				"share_button": {
+					"text": "Поделиться",
+					"count": "80"
+				},
+				"tweet_button": {
+					"text": "Твитнуть",
+					"count": "33"
+				}
+			},
+			"uz": {
+				"heading": "O'z qo'llab-quvvatlashingizni ko'rsating",
+				"like_button": {
+					"text": "Yoqqanini bildiring",
+					"count": "42"
+				},
+				"share_button": {
+					"text": "Ulashing",
+					"count": "80"
+				},
+				"tweet_button": {
+					"text": "Tvitt qiling",
+					"count": "33"
+				}
+			}
+		}
+	},
+
+	"features_section": {
+		"en": [
+			{
+				"image_url": "/public/8.png",
+				"title": "An Evangelist of Singaporean Food Has a New Pulpit",
+				"views": "1,904",
+				"comments": "82"
+			},
+			{
+				"image_url": "/public/9.png",
+				"title": "At the Mouth of the Mississippi, a Weird and Fragile Beauty",
+				"views": "2,873",
+				"comments": "982"
+			},
+			{
+				"image_url": "/public/10.png",
+				"title": "Chattanooga Is Changing. But Its Charms Remain.",
+				"views": "821",
+				"comments": "30"
+			},
+			{
+				"image_url": "/public/11.png",
+				"title": "How to Get by in a Country if You Don’t Know the Language",
+				"views": "5,030",
+				"comments": "495"
+			}
+		],
+		"ru": [
+			{
+				"image_url": "/public/8.png",
+				"title": "Евангелист сингапурской кухни получил новую кафедру",
+				"views": "1,904",
+				"comments": "82"
+			},
+			{
+				"image_url": "/public/9.png",
+				"title": "У устья Миссисипи — странная и хрупкая красота",
+				"views": "2,873",
+				"comments": "982"
+			},
+			{
+				"image_url": "/public/10.png",
+				"title": "Чаттануга меняется. Но ее очарование остается.",
+				"views": "821",
+				"comments": "30"
+			},
+			{
+				"image_url": "/public/11.png",
+				"title": "Как выжить в стране, если не знаешь языка",
+				"views": "5,030",
+				"comments": "495"
+			}
+		],
+		"uz": [
+			{
+				"image_url": "/public/8.png",
+				"title": "Singapur oshxonasining evangelisti yangi minbar oldi",
+				"views": "1,904",
+				"comments": "82"
+			},
+			{
+				"image_url": "/public/9.png",
+				"title": "Missisipi og'zida, g'alati va nozik go'zallik",
+				"views": "2,873",
+				"comments": "982"
+			},
+			{
+				"image_url": "/public/10.png",
+				"title": "Chattanooga o'zgarib bormoqda. Ammo uning jozibasi saqlanib qoladi.",
+				"views": "821",
+				"comments": "30"
+			},
+			{
+				"image_url": "/public/11.png",
+				"title": "Agar tilni bilmasangiz, qanday qilib bir mamlakatda yashash mumkin",
+				"views": "5,030",
+				"comments": "495"
+			}
+		]
+	}
+}

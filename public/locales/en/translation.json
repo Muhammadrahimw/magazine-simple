@@ -1,0 +1,29 @@
+{
+	"header": {
+		"sections": {
+			"en": "Sections",
+			"ru": "Разделы",
+			"uz": "Bo'limlar"
+		},
+		"subscribe_now": {
+			"en": "Subscribe Now",
+			"ru": "Подписаться сейчас",
+			"uz": "Hozir obuna bo'ling"
+		},
+		"three_month_offer": {
+			"en": "3 month for $19",
+			"ru": "3 месяца за $19",
+			"uz": "3 oy uchun $19"
+		},
+		"sign_in": {
+			"en": "Sign In",
+			"ru": "Войти",
+			"uz": "Kirish"
+		},
+		"date_example": {
+			"en": "Monday, January 1, 2018",
+			"ru": "Понедельник, 1 января 2018 г.",
+			"uz": "Dushanba, 1-yanvar, 2018-yil"
+		}
+	}
+}

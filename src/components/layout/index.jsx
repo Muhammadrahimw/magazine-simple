@@ -8,7 +8,7 @@ const Layout = () => {
 	return (
 		<>
 			<header className="w-[90%] mx-auto">
-				<nav className="flexC border-b py-4">
+				<nav className="py-4 border-b flexC">
 					<div className="flex items-center gap-2">
 						<HiMiniBars3CenterLeft className="text-xl cursor-pointer" />
 						<p className="font-semibold">Sections</p>
@@ -16,12 +16,12 @@ const Layout = () => {
 					<div className="flex items-center border-l pl-2 w-[60em]">
 						<IoIosSearch className="text-2xl text-gray-500" />
 						<input
-							className="pl-2 w-full h-full border-none text-gray-500 text-base outline-none bg-none"
+							className="w-full h-full pl-2 text-base text-gray-500 border-none outline-none bg-none"
 							type="Search"
 						/>
 					</div>
 					<div className="flex items-center gap-8">
-						<div className="text-xs flex items-center gap-2">
+						<div className="flex items-center gap-2 text-xs">
 							<div>
 								<img src="/public/Image.svg" alt="" />
 							</div>
@@ -36,7 +36,7 @@ const Layout = () => {
 						</div>
 					</div>
 				</nav>
-				<div className="grid grid-cols-3 place-items-center gap-8">
+				<div className="grid grid-cols-3 gap-8 place-items-center">
 					<div className="flex items-center gap-4">
 						<div>
 							<img src="/public/Image2.svg" alt="" />
@@ -76,8 +76,8 @@ const Layout = () => {
 			</div>
 			<Outlet />
 			<footer className="w-[90%] mx-auto mt-[4em]">
-				<div className="h-1 w-full grid grid-cols-6 mb-7">
-					<div className="h-full w-full bg-red-500 rounded-l-full"></div>
+				<div className="grid w-full h-1 grid-cols-6 mb-7">
+					<div className="w-full h-full bg-red-500 rounded-l-full"></div>
 					<div className="h-full w-full bg-[#AC8EE3]"></div>
 					<div className="h-full w-full bg-[#4592FF]"></div>
 					<div className="h-full w-full bg-[#FFA34D]"></div>
@@ -86,14 +86,14 @@ const Layout = () => {
 				</div>
 				<div className="grid grid-cols-6 gap-4 pb-7">
 					<div className="flex flex-col gap-3">
-						<p className="text-sm font-bold mb-4">News</p>
+						<p className="mb-4 text-sm font-bold">News</p>
 						<p className="text-sm">Nation</p>
 						<p className="text-sm">World</p>
 						<p className="text-sm">Politics</p>
 						<p className="text-sm">Solar Eclipse</p>
 					</div>
 					<div className="flex flex-col gap-3">
-						<p className="text-sm font-bold mb-4">Arts</p>
+						<p className="mb-4 text-sm font-bold">Arts</p>
 						<p className="text-sm">Art & Design</p>
 						<p className="text-sm">Movies</p>
 						<p className="text-sm">People</p>
@@ -101,13 +101,13 @@ const Layout = () => {
 						<p className="text-sm">Theater</p>
 					</div>
 					<div className="flex flex-col gap-3">
-						<p className="text-sm font-bold mb-4">Travel</p>
+						<p className="mb-4 text-sm font-bold">Travel</p>
 						<p className="text-sm">Destinations</p>
 						<p className="text-sm">Flights</p>
 						<p className="text-sm">Business Travel</p>
 					</div>
 					<div className="flex flex-col gap-3">
-						<p className="text-sm font-bold mb-4">Sports</p>
+						<p className="mb-4 text-sm font-bold">Sports</p>
 						<p className="text-sm">Olympics</p>
 						<p className="text-sm">Motor Sports</p>
 						<p className="text-sm">Volleyball</p>
@@ -115,14 +115,14 @@ const Layout = () => {
 						<p className="text-sm">Cycling</p>
 					</div>
 					<div className="flex flex-col gap-3">
-						<p className="text-sm font-bold mb-4">Tech</p>
+						<p className="mb-4 text-sm font-bold">Tech</p>
 						<p className="text-sm">Tech</p>
 						<p className="text-sm">Tech Columnists</p>
 						<p className="text-sm">Tech Reviews</p>
 						<p className="text-sm">Talking Tech</p>
 					</div>
 					<div className="flex flex-col gap-3">
-						<p className="text-sm font-bold mb-4">Moneys</p>
+						<p className="mb-4 text-sm font-bold">Moneys</p>
 						<p className="text-sm">Markets</p>
 						<p className="text-sm">Business</p>
 						<p className="text-sm">Personal Finance</p>
@@ -157,7 +157,7 @@ const Layout = () => {
 					</div>
 				</div>
 				<div className="w-full border-t border-gray-400"></div>
-				<div className="flexC py-6">
+				<div className="py-6 flexC">
 					<p className="text-sm text-gray-400 w-[60%]">
 						Universal’s business concept is to offer fashion and quality at the
 						best price in a sustainable way. Universal has since it was founded
